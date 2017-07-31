@@ -1,0 +1,9 @@
+stage.set_background("flowers")
+
+x = -200
+
+for counter in range(9):
+    sprite = codesters.Sprite("butterfly")
+    sprite.set_size(.7)
+    sprite.go_to(x, 100)
+    x += 50
